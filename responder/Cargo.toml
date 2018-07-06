@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["Andy Lowry <andy@andylowry.me.uk>"]
 
 [dependencies]
+mdns-responder = { git = "https://github.com/azdlowry/rust-mdns-responder" }
+dns-parser = { git = "https://github.com/plietar/dns-parser" }
+env_logger = "*"
